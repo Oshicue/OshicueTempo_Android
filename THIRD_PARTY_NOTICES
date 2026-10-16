@@ -1,0 +1,29 @@
+Oshicue Tempo (Android) — third-party notices
+
+The project's original source code, documentation and generated brand assets
+are licensed under the MIT License in LICENSE. Third-party components retain
+their own licenses.
+
+Unbounded font
+--------------
+Files: app/src/main/res/font/unbounded.ttf
+Copyright: 2022 The Unbounded Project Authors
+Upstream: https://github.com/googlefonts/unbounded
+License: SIL Open Font License 1.1
+Full license and copyright notice: app/src/main/assets/licenses/Unbounded-OFL.txt
+
+The bundled font is distributed under its original OFL license, not MIT.
+The wordmark and timer digits are rendered with this variable font; the
+launcher icons reuse the app icon created for the iOS build in docs/brand/.
+
+Alert sounds
+------------
+Files: app/src/main/res/raw/{chime,pulse,bell,arcade}.wav
+Origin: original tones synthesized for Oshicue Tempo (scripts/generate_sounds.py
+in the iOS project). Copyright 2026 Oshicue, distributed under the MIT License.
+
+Adaptive launcher icons
+-----------------------
+Generated from docs/brand/app-icon.png with tools/generate_launcher_icons.swift.
+
+MIT license reference: https://opensource.org/license/mit
